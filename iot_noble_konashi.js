@@ -3,7 +3,7 @@ var net = require('net');
 
 var HOST = 'localhost';
 var PORT = 7070;
-var cmptName = ' Illuminance';
+var cmptName = 'Illuminance';
 var sendLoop;
 
 var client = new net.Socket();
